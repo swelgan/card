@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BDBE3D41BAE242D00027A52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDBE3D31BAE242D00027A52 /* AppDelegate.swift */; };
+		0BDBE3D61BAE242D00027A52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDBE3D51BAE242D00027A52 /* ViewController.swift */; };
+		0BDBE3D91BAE242D00027A52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BDBE3D71BAE242D00027A52 /* Main.storyboard */; };
+		0BDBE3DB1BAE242D00027A52 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BDBE3DA1BAE242D00027A52 /* Images.xcassets */; };
+		0BDBE3DE1BAE242D00027A52 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BDBE3DC1BAE242D00027A52 /* LaunchScreen.xib */; };
+		0BDBE3EA1BAE242D00027A52 /* CardMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDBE3E91BAE242D00027A52 /* CardMasterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BDBE3E41BAE242D00027A52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BDBE3C61BAE242D00027A52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BDBE3CD1BAE242D00027A52;
+			remoteInfo = CardMaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BDBE3CE1BAE242D00027A52 /* CardMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BDBE3D21BAE242D00027A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BDBE3D31BAE242D00027A52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0BDBE3D51BAE242D00027A52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0BDBE3D81BAE242D00027A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BDBE3DA1BAE242D00027A52 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0BDBE3DD1BAE242D00027A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0BDBE3E31BAE242D00027A52 /* CardMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BDBE3E81BAE242D00027A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BDBE3E91BAE242D00027A52 /* CardMasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMasterTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BDBE3CB1BAE242D00027A52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BDBE3E01BAE242D00027A52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BDBE3C51BAE242D00027A52 = {
+			isa = PBXGroup;
+			children = (
+				0BDBE3D01BAE242D00027A52 /* CardMaster */,
+				0BDBE3E61BAE242D00027A52 /* CardMasterTests */,
+				0BDBE3CF1BAE242D00027A52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BDBE3CF1BAE242D00027A52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BDBE3CE1BAE242D00027A52 /* CardMaster.app */,
+				0BDBE3E31BAE242D00027A52 /* CardMasterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BDBE3D01BAE242D00027A52 /* CardMaster */ = {
+			isa = PBXGroup;
+			children = (
+				0BDBE3D31BAE242D00027A52 /* AppDelegate.swift */,
+				0BDBE3D51BAE242D00027A52 /* ViewController.swift */,
+				0BDBE3D71BAE242D00027A52 /* Main.storyboard */,
+				0BDBE3DA1BAE242D00027A52 /* Images.xcassets */,
+				0BDBE3DC1BAE242D00027A52 /* LaunchScreen.xib */,
+				0BDBE3D11BAE242D00027A52 /* Supporting Files */,
+			);
+			path = CardMaster;
+			sourceTree = "<group>";
+		};
+		0BDBE3D11BAE242D00027A52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BDBE3D21BAE242D00027A52 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0BDBE3E61BAE242D00027A52 /* CardMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				0BDBE3E91BAE242D00027A52 /* CardMasterTests.swift */,
+				0BDBE3E71BAE242D00027A52 /* Supporting Files */,
+			);
+			path = CardMasterTests;
+			sourceTree = "<group>";
+		};
+		0BDBE3E71BAE242D00027A52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BDBE3E81BAE242D00027A52 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BDBE3CD1BAE242D00027A52 /* CardMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BDBE3ED1BAE242D00027A52 /* Build configuration list for PBXNativeTarget "CardMaster" */;
+			buildPhases = (
+				0BDBE3CA1BAE242D00027A52 /* Sources */,
+				0BDBE3CB1BAE242D00027A52 /* Frameworks */,
+				0BDBE3CC1BAE242D00027A52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardMaster;
+			productName = CardMaster;
+			productReference = 0BDBE3CE1BAE242D00027A52 /* CardMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BDBE3E21BAE242D00027A52 /* CardMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BDBE3F01BAE242D00027A52 /* Build configuration list for PBXNativeTarget "CardMasterTests" */;
+			buildPhases = (
+				0BDBE3DF1BAE242D00027A52 /* Sources */,
+				0BDBE3E01BAE242D00027A52 /* Frameworks */,
+				0BDBE3E11BAE242D00027A52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BDBE3E51BAE242D00027A52 /* PBXTargetDependency */,
+			);
+			name = CardMasterTests;
+			productName = CardMasterTests;
+			productReference = 0BDBE3E31BAE242D00027A52 /* CardMasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BDBE3C61BAE242D00027A52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Jue Wang";
+				TargetAttributes = {
+					0BDBE3CD1BAE242D00027A52 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					0BDBE3E21BAE242D00027A52 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 0BDBE3CD1BAE242D00027A52;
+					};
+				};
+			};
+			buildConfigurationList = 0BDBE3C91BAE242D00027A52 /* Build configuration list for PBXProject "CardMaster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BDBE3C51BAE242D00027A52;
+			productRefGroup = 0BDBE3CF1BAE242D00027A52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BDBE3CD1BAE242D00027A52 /* CardMaster */,
+				0BDBE3E21BAE242D00027A52 /* CardMasterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BDBE3CC1BAE242D00027A52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BDBE3D91BAE242D00027A52 /* Main.storyboard in Resources */,
+				0BDBE3DE1BAE242D00027A52 /* LaunchScreen.xib in Resources */,
+				0BDBE3DB1BAE242D00027A52 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BDBE3E11BAE242D00027A52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BDBE3CA1BAE242D00027A52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BDBE3D61BAE242D00027A52 /* ViewController.swift in Sources */,
+				0BDBE3D41BAE242D00027A52 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BDBE3DF1BAE242D00027A52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BDBE3EA1BAE242D00027A52 /* CardMasterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BDBE3E51BAE242D00027A52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BDBE3CD1BAE242D00027A52 /* CardMaster */;
+			targetProxy = 0BDBE3E41BAE242D00027A52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0BDBE3D71BAE242D00027A52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BDBE3D81BAE242D00027A52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0BDBE3DC1BAE242D00027A52 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BDBE3DD1BAE242D00027A52 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BDBE3EB1BAE242D00027A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BDBE3EC1BAE242D00027A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BDBE3EE1BAE242D00027A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CardMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0BDBE3EF1BAE242D00027A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CardMaster/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0BDBE3F11BAE242D00027A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CardMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardMaster.app/CardMaster";
+			};
+			name = Debug;
+		};
+		0BDBE3F21BAE242D00027A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CardMasterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardMaster.app/CardMaster";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BDBE3C91BAE242D00027A52 /* Build configuration list for PBXProject "CardMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BDBE3EB1BAE242D00027A52 /* Debug */,
+				0BDBE3EC1BAE242D00027A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BDBE3ED1BAE242D00027A52 /* Build configuration list for PBXNativeTarget "CardMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BDBE3EE1BAE242D00027A52 /* Debug */,
+				0BDBE3EF1BAE242D00027A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0BDBE3F01BAE242D00027A52 /* Build configuration list for PBXNativeTarget "CardMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BDBE3F11BAE242D00027A52 /* Debug */,
+				0BDBE3F21BAE242D00027A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BDBE3C61BAE242D00027A52 /* Project object */;
+}
