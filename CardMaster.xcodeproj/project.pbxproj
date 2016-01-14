@@ -7,12 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B50E1B21C1A945B00BA15A5 /* CategoryDiscountTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B50E1B11C1A945B00BA15A5 /* CategoryDiscountTableViewController.swift */; };
+		0B6142BC1BFAF5780043A1C5 /* QueryResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6142BB1BFAF5780043A1C5 /* QueryResult.swift */; };
+		0BB7A4081C02E965001EA839 /* CategoryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB7A4071C02E965001EA839 /* CategoryInfo.swift */; };
+		0BB7A40C1C02ED3E001EA839 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB7A40B1C02ED3E001EA839 /* CategoryTableViewController.swift */; };
+		0BB7A40E1C0583C6001EA839 /* cardMaster.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 0BB7A40D1C0583C6001EA839 /* cardMaster.sqlite */; };
+		0BB7A4101C05959F001EA839 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB7A40F1C05959F001EA839 /* CategoryCell.swift */; };
 		0BDBE3D41BAE242D00027A52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDBE3D31BAE242D00027A52 /* AppDelegate.swift */; };
-		0BDBE3D61BAE242D00027A52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDBE3D51BAE242D00027A52 /* ViewController.swift */; };
+		0BDBE3D61BAE242D00027A52 /* InsertCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDBE3D51BAE242D00027A52 /* InsertCardViewController.swift */; };
 		0BDBE3D91BAE242D00027A52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BDBE3D71BAE242D00027A52 /* Main.storyboard */; };
 		0BDBE3DB1BAE242D00027A52 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BDBE3DA1BAE242D00027A52 /* Images.xcassets */; };
 		0BDBE3DE1BAE242D00027A52 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BDBE3DC1BAE242D00027A52 /* LaunchScreen.xib */; };
 		0BDBE3EA1BAE242D00027A52 /* CardMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDBE3E91BAE242D00027A52 /* CardMasterTests.swift */; };
+		0BDBE3FA1BAE289D00027A52 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDBE3F91BAE289D00027A52 /* CardCell.swift */; };
+		0BDBE3FD1BAE2B7700027A52 /* CardListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDBE3FC1BAE2B7700027A52 /* CardListTableViewController.swift */; };
+		0BDBE4001BAE2DD600027A52 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDBE3FF1BAE2DD600027A52 /* ModelManager.swift */; };
+		0BDBE4021BAE2DEA00027A52 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDBE4011BAE2DEA00027A52 /* Util.swift */; };
+		0BDBE4041BAE2E0200027A52 /* CardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDBE4031BAE2E0200027A52 /* CardInfo.swift */; };
+		0BDBE4061BAE2F4E00027A52 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BDBE4051BAE2F4E00027A52 /* libsqlite3.0.dylib */; };
+		0BDBE4101BAE307000027A52 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDBE40A1BAE307000027A52 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0BDBE4111BAE307100027A52 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDBE40C1BAE307000027A52 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0BDBE4121BAE307100027A52 /* fmdb.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0BDBE40D1BAE307000027A52 /* fmdb.txt */; };
+		0BDBE4131BAE307100027A52 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDBE40F1BAE307000027A52 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0BDBE4181BAF22DC00027A52 /* SuggestedCardsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDBE4171BAF22DC00027A52 /* SuggestedCardsTableViewController.swift */; };
+		0BDBE41A1BAF287D00027A52 /* SuggestedCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDBE4191BAF287D00027A52 /* SuggestedCardCell.swift */; };
+		0BDBE41C1BAF592800027A52 /* DiscountTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDBE41B1BAF592800027A52 /* DiscountTableViewController.swift */; };
+		0BDBE41E1BAF5A1600027A52 /* DiscountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDBE41D1BAF5A1600027A52 /* DiscountCell.swift */; };
+		0BDBE4221BAF663600027A52 /* test.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 0BDBE4211BAF663600027A52 /* test.sqlite */; };
+		0BDBE4241BAF684D00027A52 /* DiscountInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDBE4231BAF684D00027A52 /* DiscountInfo.swift */; };
+		0BDBE4261BAF71A100027A52 /* InsertDiscountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDBE4251BAF71A100027A52 /* InsertDiscountViewController.swift */; };
+		0BDBE4281BAF918F00027A52 /* QueryDiscountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDBE4271BAF918F00027A52 /* QueryDiscountViewController.swift */; };
+		0BDBE42A1BAF970700027A52 /* QueryDiscountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDBE4291BAF970700027A52 /* QueryDiscountCell.swift */; };
+		0BDBE42C1BB1108A00027A52 /* OfferInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDBE42B1BB1108A00027A52 /* OfferInfo.swift */; };
+		0BDBE42E1BB3B91900027A52 /* SuggestedCategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDBE42D1BB3B91900027A52 /* SuggestedCategoryTableViewController.swift */; };
+		0BDBE4301BB3C74600027A52 /* SuggestedCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDBE42F1BB3C74600027A52 /* SuggestedCategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +54,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B50E1B11C1A945B00BA15A5 /* CategoryDiscountTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryDiscountTableViewController.swift; sourceTree = "<group>"; };
+		0B6142BB1BFAF5780043A1C5 /* QueryResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryResult.swift; sourceTree = "<group>"; };
+		0BB7A4071C02E965001EA839 /* CategoryInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryInfo.swift; sourceTree = "<group>"; };
+		0BB7A40B1C02ED3E001EA839 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		0BB7A40D1C0583C6001EA839 /* cardMaster.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = cardMaster.sqlite; sourceTree = "<group>"; };
+		0BB7A40F1C05959F001EA839 /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		0BDBE3CE1BAE242D00027A52 /* CardMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BDBE3D21BAE242D00027A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BDBE3D31BAE242D00027A52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0BDBE3D51BAE242D00027A52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0BDBE3D51BAE242D00027A52 /* InsertCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertCardViewController.swift; sourceTree = "<group>"; };
 		0BDBE3D81BAE242D00027A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0BDBE3DA1BAE242D00027A52 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0BDBE3DD1BAE242D00027A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0BDBE3E31BAE242D00027A52 /* CardMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BDBE3E81BAE242D00027A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BDBE3E91BAE242D00027A52 /* CardMasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMasterTests.swift; sourceTree = "<group>"; };
+		0BDBE3F91BAE289D00027A52 /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		0BDBE3FC1BAE2B7700027A52 /* CardListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardListTableViewController.swift; sourceTree = "<group>"; };
+		0BDBE3FF1BAE2DD600027A52 /* ModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		0BDBE4011BAE2DEA00027A52 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		0BDBE4031BAE2E0200027A52 /* CardInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardInfo.swift; sourceTree = "<group>"; };
+		0BDBE4051BAE2F4E00027A52 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		0BDBE4091BAE307000027A52 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = ThirdParty/FMDB/FMDatabase.h; sourceTree = "<group>"; };
+		0BDBE40A1BAE307000027A52 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = ThirdParty/FMDB/FMDatabase.m; sourceTree = "<group>"; };
+		0BDBE40B1BAE307000027A52 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = ThirdParty/FMDB/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		0BDBE40C1BAE307000027A52 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = ThirdParty/FMDB/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		0BDBE40D1BAE307000027A52 /* fmdb.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = fmdb.txt; path = ThirdParty/FMDB/fmdb.txt; sourceTree = "<group>"; };
+		0BDBE40E1BAE307000027A52 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = ThirdParty/FMDB/FMResultSet.h; sourceTree = "<group>"; };
+		0BDBE40F1BAE307000027A52 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = ThirdParty/FMDB/FMResultSet.m; sourceTree = "<group>"; };
+		0BDBE4141BAE30F500027A52 /* CardMaster-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CardMaster-Bridging-Header.h"; sourceTree = "<group>"; };
+		0BDBE4171BAF22DC00027A52 /* SuggestedCardsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestedCardsTableViewController.swift; sourceTree = "<group>"; };
+		0BDBE4191BAF287D00027A52 /* SuggestedCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestedCardCell.swift; sourceTree = "<group>"; };
+		0BDBE41B1BAF592800027A52 /* DiscountTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscountTableViewController.swift; sourceTree = "<group>"; };
+		0BDBE41D1BAF5A1600027A52 /* DiscountCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscountCell.swift; sourceTree = "<group>"; };
+		0BDBE4211BAF663600027A52 /* test.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.sqlite; sourceTree = "<group>"; };
+		0BDBE4231BAF684D00027A52 /* DiscountInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscountInfo.swift; sourceTree = "<group>"; };
+		0BDBE4251BAF71A100027A52 /* InsertDiscountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertDiscountViewController.swift; sourceTree = "<group>"; };
+		0BDBE4271BAF918F00027A52 /* QueryDiscountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryDiscountViewController.swift; sourceTree = "<group>"; };
+		0BDBE4291BAF970700027A52 /* QueryDiscountCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryDiscountCell.swift; sourceTree = "<group>"; };
+		0BDBE42B1BB1108A00027A52 /* OfferInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferInfo.swift; sourceTree = "<group>"; };
+		0BDBE42D1BB3B91900027A52 /* SuggestedCategoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestedCategoryTableViewController.swift; sourceTree = "<group>"; };
+		0BDBE42F1BB3C74600027A52 /* SuggestedCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuggestedCategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BDBE4061BAE2F4E00027A52 /* libsqlite3.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +120,7 @@
 		0BDBE3C51BAE242D00027A52 = {
 			isa = PBXGroup;
 			children = (
+				0BDBE4051BAE2F4E00027A52 /* libsqlite3.0.dylib */,
 				0BDBE3D01BAE242D00027A52 /* CardMaster */,
 				0BDBE3E61BAE242D00027A52 /* CardMasterTests */,
 				0BDBE3CF1BAE242D00027A52 /* Products */,
@@ -77,12 +139,18 @@
 		0BDBE3D01BAE242D00027A52 /* CardMaster */ = {
 			isa = PBXGroup;
 			children = (
-				0BDBE3D31BAE242D00027A52 /* AppDelegate.swift */,
-				0BDBE3D51BAE242D00027A52 /* ViewController.swift */,
+				0BB7A40D1C0583C6001EA839 /* cardMaster.sqlite */,
 				0BDBE3D71BAE242D00027A52 /* Main.storyboard */,
+				0BDBE4211BAF663600027A52 /* test.sqlite */,
+				0BDBE4071BAE2F5F00027A52 /* ThirdParty */,
+				0BDBE3FE1BAE2DC100027A52 /* Model */,
+				0BDBE3FB1BAE2B2B00027A52 /* ViewController */,
+				0BDBE3F81BAE286200027A52 /* UITableViewCell */,
+				0BDBE3D31BAE242D00027A52 /* AppDelegate.swift */,
 				0BDBE3DA1BAE242D00027A52 /* Images.xcassets */,
 				0BDBE3DC1BAE242D00027A52 /* LaunchScreen.xib */,
 				0BDBE3D11BAE242D00027A52 /* Supporting Files */,
+				0BDBE4141BAE30F500027A52 /* CardMaster-Bridging-Header.h */,
 			);
 			path = CardMaster;
 			sourceTree = "<group>";
@@ -110,6 +178,71 @@
 				0BDBE3E81BAE242D00027A52 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0BDBE3F81BAE286200027A52 /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				0BDBE3F91BAE289D00027A52 /* CardCell.swift */,
+				0BDBE4191BAF287D00027A52 /* SuggestedCardCell.swift */,
+				0BDBE41D1BAF5A1600027A52 /* DiscountCell.swift */,
+				0BDBE4291BAF970700027A52 /* QueryDiscountCell.swift */,
+				0BB7A40F1C05959F001EA839 /* CategoryCell.swift */,
+			);
+			name = UITableViewCell;
+			sourceTree = "<group>";
+		};
+		0BDBE3FB1BAE2B2B00027A52 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0BB7A40B1C02ED3E001EA839 /* CategoryTableViewController.swift */,
+				0BDBE3FC1BAE2B7700027A52 /* CardListTableViewController.swift */,
+				0BDBE4171BAF22DC00027A52 /* SuggestedCardsTableViewController.swift */,
+				0BDBE3D51BAE242D00027A52 /* InsertCardViewController.swift */,
+				0BDBE41B1BAF592800027A52 /* DiscountTableViewController.swift */,
+				0BDBE4251BAF71A100027A52 /* InsertDiscountViewController.swift */,
+				0BDBE4271BAF918F00027A52 /* QueryDiscountViewController.swift */,
+				0BDBE42D1BB3B91900027A52 /* SuggestedCategoryTableViewController.swift */,
+				0BDBE42F1BB3C74600027A52 /* SuggestedCategoryViewController.swift */,
+				0B50E1B11C1A945B00BA15A5 /* CategoryDiscountTableViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		0BDBE3FE1BAE2DC100027A52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0BDBE3FF1BAE2DD600027A52 /* ModelManager.swift */,
+				0BDBE4011BAE2DEA00027A52 /* Util.swift */,
+				0BDBE4031BAE2E0200027A52 /* CardInfo.swift */,
+				0BB7A4071C02E965001EA839 /* CategoryInfo.swift */,
+				0BDBE4231BAF684D00027A52 /* DiscountInfo.swift */,
+				0BDBE42B1BB1108A00027A52 /* OfferInfo.swift */,
+				0B6142BB1BFAF5780043A1C5 /* QueryResult.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0BDBE4071BAE2F5F00027A52 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				0BDBE4081BAE2F6E00027A52 /* FMDB */,
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+		0BDBE4081BAE2F6E00027A52 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				0BDBE4091BAE307000027A52 /* FMDatabase.h */,
+				0BDBE40A1BAE307000027A52 /* FMDatabase.m */,
+				0BDBE40B1BAE307000027A52 /* FMDatabaseAdditions.h */,
+				0BDBE40C1BAE307000027A52 /* FMDatabaseAdditions.m */,
+				0BDBE40D1BAE307000027A52 /* fmdb.txt */,
+				0BDBE40E1BAE307000027A52 /* FMResultSet.h */,
+				0BDBE40F1BAE307000027A52 /* FMResultSet.m */,
+			);
+			name = FMDB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,11 +289,14 @@
 		0BDBE3C61BAE242D00027A52 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Jue Wang";
 				TargetAttributes = {
 					0BDBE3CD1BAE242D00027A52 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 88ZX56289J;
 					};
 					0BDBE3E21BAE242D00027A52 = {
 						CreatedOnToolsVersion = 6.4;
@@ -193,8 +329,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BDBE3D91BAE242D00027A52 /* Main.storyboard in Resources */,
+				0BDBE4221BAF663600027A52 /* test.sqlite in Resources */,
 				0BDBE3DE1BAE242D00027A52 /* LaunchScreen.xib in Resources */,
 				0BDBE3DB1BAE242D00027A52 /* Images.xcassets in Resources */,
+				0BDBE4121BAE307100027A52 /* fmdb.txt in Resources */,
+				0BB7A40E1C0583C6001EA839 /* cardMaster.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +351,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BDBE3D61BAE242D00027A52 /* ViewController.swift in Sources */,
+				0BDBE4281BAF918F00027A52 /* QueryDiscountViewController.swift in Sources */,
+				0BDBE42A1BAF970700027A52 /* QueryDiscountCell.swift in Sources */,
+				0BB7A4081C02E965001EA839 /* CategoryInfo.swift in Sources */,
+				0BDBE41C1BAF592800027A52 /* DiscountTableViewController.swift in Sources */,
+				0BB7A4101C05959F001EA839 /* CategoryCell.swift in Sources */,
+				0BDBE3D61BAE242D00027A52 /* InsertCardViewController.swift in Sources */,
+				0B50E1B21C1A945B00BA15A5 /* CategoryDiscountTableViewController.swift in Sources */,
+				0BDBE4261BAF71A100027A52 /* InsertDiscountViewController.swift in Sources */,
+				0BDBE4181BAF22DC00027A52 /* SuggestedCardsTableViewController.swift in Sources */,
+				0BDBE4021BAE2DEA00027A52 /* Util.swift in Sources */,
+				0BDBE4241BAF684D00027A52 /* DiscountInfo.swift in Sources */,
 				0BDBE3D41BAE242D00027A52 /* AppDelegate.swift in Sources */,
+				0BDBE4001BAE2DD600027A52 /* ModelManager.swift in Sources */,
+				0BB7A40C1C02ED3E001EA839 /* CategoryTableViewController.swift in Sources */,
+				0BDBE4131BAE307100027A52 /* FMResultSet.m in Sources */,
+				0BDBE3FA1BAE289D00027A52 /* CardCell.swift in Sources */,
+				0BDBE42C1BB1108A00027A52 /* OfferInfo.swift in Sources */,
+				0BDBE41A1BAF287D00027A52 /* SuggestedCardCell.swift in Sources */,
+				0BDBE4111BAE307100027A52 /* FMDatabaseAdditions.m in Sources */,
+				0BDBE41E1BAF5A1600027A52 /* DiscountCell.swift in Sources */,
+				0BDBE4301BB3C74600027A52 /* SuggestedCategoryViewController.swift in Sources */,
+				0B6142BC1BFAF5780043A1C5 /* QueryResult.swift in Sources */,
+				0BDBE3FD1BAE2B7700027A52 /* CardListTableViewController.swift in Sources */,
+				0BDBE42E1BB3B91900027A52 /* SuggestedCategoryTableViewController.swift in Sources */,
+				0BDBE4041BAE2E0200027A52 /* CardInfo.swift in Sources */,
+				0BDBE4101BAE307000027A52 /* FMDatabase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +439,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -342,9 +506,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CardMaster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "./CardMaster/CardMaster-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -352,9 +521,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CardMaster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "./CardMaster/CardMaster-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -372,6 +546,7 @@
 				);
 				INFOPLIST_FILE = CardMasterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardMaster.app/CardMaster";
 			};
@@ -387,6 +562,7 @@
 				);
 				INFOPLIST_FILE = CardMasterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardMaster.app/CardMaster";
 			};
@@ -411,6 +587,7 @@
 				0BDBE3EF1BAE242D00027A52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BDBE3F01BAE242D00027A52 /* Build configuration list for PBXNativeTarget "CardMasterTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +596,7 @@
 				0BDBE3F21BAE242D00027A52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
